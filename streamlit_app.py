@@ -3,7 +3,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 
-df = pd.read_csv('C:/Users/Usuario/Downloads/art/5gr.csv', encoding='latin1')
+# Lee el archivo CSV desde el repositorio
+df = pd.read_csv('5gr.csv', encoding='latin1')
 
 # Limpieza de datos
 df.drop_duplicates(inplace=True)
